@@ -9,8 +9,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from "vue";
+import { defineComponent, ref, watch } from "vue";
 import PitchSlider from "./components/PitchSlider.vue";
+
 
 
 const pitch = ref(0);

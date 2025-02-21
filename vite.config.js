@@ -3,6 +3,10 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
+  server: {
+    port: 5174,
+    open: true, // Automatically opens the browser
+  },
   build: {
     outDir: "dist",
     rollupOptions: {

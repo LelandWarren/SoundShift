@@ -3,7 +3,7 @@
     "name": "Sound Shift",
     "version": "1.0",
     "description": "A Chrome extension to transform audio playback",
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab", "scripting"],
     "host_permissions": ["<all_urls>"],
     "background": {
       "service_worker": "background.js"
